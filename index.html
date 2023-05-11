@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Flipapps</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#ddcb42">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <!--Chat messenger-->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="110655274006413" theme_color="#0084ff" logged_in_greeting="Hola!!! soy Flipo 🤖  el asistente virtual de FlipApps!!! Déjame ayudarte..." logged_out_greeting="Hola!!! soy Flipo 🤖  el asistente virtual de FlipApps!!! Déjame ayudarte...">
+    </div>
+
+
+
+
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-6 col-xl-2">
+                        <h1 class="mb-0 site-logo"><a href="index.html" class="mb-0">flipapps</a></h1>
+                    </div>
+
+                    <div class="col-12 col-md-10 d-none d-xl-block">
+                        <nav class="site-navigation position-relative text-right" role="navigation">
+
+                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                                <li><a href="#home-section" class="nav-link">Home</a></li>
+                                <li class="has-children">
+                                    <a href="#about-section" class="nav-link">Acerca de nosotros</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#team-section" class="nav-link">Team</a></li>
+
+                                    </ul>
+                                    <li><a href="#pricing-section" class="nav-link">Precios</a></li>
+                                </li>
+                                <li><a href="#portfolio-section" class="nav-link">Portafolio</a></li>
+                                <li><a href="#services-section" class="nav-link">Servicios</a></li>
+                                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+                </div>
+            </div>
+
+        </header>
+
+
+
+        <div class="site-blocks-cover overlay" style="background-image: url(images/bg3.png);" data-aos="fade" id="home-section">
+
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+
+
+                    <div class="col-md-8 mt-lg-5 text-center">
+                        <h1 class="text-uppercase mb-5" data-aos="fade-up">Una web mas divertida</h1>
+
+                        <div data-aos="fade-up" data-aos-delay="100">
+                            <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Contáctanos</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#about-section" class="mouse smoothscroll">
+                <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+                </span>
+            </a>
+        </div>
+
+
+        <div class="site-section cta-big-image" id="about-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center" data-aos="fade">
+                        <h2 class="section-title mb-3">Acerca de nosotros</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+                        <figure class="circle-bg">
+                            <img loading="lazy" src="images/at.png" alt="Image" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                        <div class="mb-4">
+                            <h3 class="h3 mb-4 text-black">Haciendo frente al covid-19 apoyando a negocios locales.</h3>
+                            <p>impulsamos tu negocio desde su sana-distancia, implementando tecnologías que ayudan a escalar tu negocio y a operar de forma segura y confiable. <br> Somos una empresa especializada en comercio en linea y aplicaciones móviles
+                                adaptándonos a todo tipo de entorno.</p>
+
+
+
+                        </div>
+
+
+
+                        <div class="mb-4">
+                            <ul class="list-unstyled ul-check success">
+                                <li>Agilidad</li>
+                                <li>Transparencia</li>
+                                <li>Responsabilidad</li>
+                            </ul>
+
+                        </div>
+
+                        <p><a href="#contact-section" class="smoothscroll btn btn-primary">Contáctanos</a></p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Aquí comienza la sección quienes somos-->
+        <section class="site-section border-bottom" id="team-section">
+            <div class="container">
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">¿Quiénes somos?</h2>
+                    </div>
+                </div>
+                <div class="row">
+
+
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/isra.alba/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/isra.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Israel Albarrán</h3>
+                                <span class="position">Founder <br> Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/gchapadg/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/gerard.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Gerardo Chapa</h3>
+                                <span class="position">Co-founder <br> Ing. Mechatronics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/vledesma_sam/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/sam.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Samantha Ledesma</h3>
+                                <span class="position">Product Manager <br> Publisher </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/minombrees_gram/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/Edna.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Edna Gualito</h3>
+                                <span class="position">Designer <br> graphic designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/kkeivis/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/kevin.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Kevin Soriano</h3>
+                                <span class="position">Sales Advisor <br> lawyer </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+
+                                    <li><a href="https://www.instagram.com/isra.alba/"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img loading="lazy" src="images/lua.png" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Lua</h3>
+                                <span class="position"> team support<br>  </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="site-section" id="portfolio-section">
+
+
+            <div class="container">
+
+                <div class="row mb-3">
+                    <div class="col-12 text-center" data-aos="fade">
+                        <h2 class="section-title mb-3">Portafolio</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-5" data-aos="fade-up">
+                    <div id="filters" class="filters text-center button-group col-md-7">
+                        <button class="btn btn-primary active" data-filter="*">All</button>
+                        <button class="btn btn-primary" data-filter=".web">Web</button>
+                        <button class="btn btn-primary" data-filter=".design">Design</button>
+                        <button class="btn btn-primary" data-filter=".brand">Brand</button>
+                    </div>
+                </div>
+
+                <div id="posts" class="row no-gutter">
+                    <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/amor mio.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/amor mio.png">
+                        </a>
+                    </div>
+                    <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/app.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/app.png">
+                        </a>
+                    </div>
+
+                    <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/uq.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/uq.png">
+                        </a>
+                    </div>
+
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+                        <a href="images/sinai.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/sinai.png">
+                        </a>
+
+                    </div>
+
+                    <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/zeus.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/zeus.png">
+                        </a>
+                    </div>
+
+                    <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/amormio p.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/amormio p.png">
+                        </a>
+                    </div>
+
+
+
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/cuerpower logo.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/cuerpower logo.png">
+                        </a>
+                    </div>
+
+
+
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/soulfilms logo.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/soulfilms logo.png">
+                        </a>
+                    </div>
+
+                    <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/soul films boda.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/soul films boda.png">
+                        </a>
+                    </div>
+
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/soul films boda.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/cp p.png">
+                        </a>
+                    </div>
+
+
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/uq2.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/uq2.png">
+                        </a>
+                    </div>
+                    <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+                        <a href="images/uqapp.png" class="item-wrap fancybox" data-fancybox="gallery2">
+                            <span class="icon-search2"></span>
+                            <img class="img-fluid" src="images/uqapp.png">
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <section class="site-section border-bottom bg-light" id="services-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center" data-aos="fade">
+                        <h2 class="section-title mb-3">Nuestros servicios</h2>
+                    </div>
+                </div>
+                <div class="row align-items-stretch">
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-startup"></span></div>
+                            <div>
+                                <h3>Diseño web</h3>
+                                <p>Creamos tu tarjeta de presentación on-line, con las mejores tecnologías, a la medida que lo necesitas</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-graphic-design"></span></div>
+                            <div>
+                                <h3>Marketing Digital</h3>
+                                <p> Hacemos lo pesado de una campaña publicitaria por ti, atraemos con estrategía y transparencia clientes potenciales a tu producto </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-settings"></span></div>
+                            <div>
+                                <h3>Soluciones Digitales</h3>
+                                <p>Automatizamos procesos que tu empresa necesita, implementamos chats automáticos y sistemas de gestión de datos.</p>
+                                <p><a href="#">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-idea"></span></div>
+                            <div>
+                                <h3>Branding</h3>
+                                <p>Le damos a tu marca una identidad corporativa y competitiva, lista para triunfar en el mercado, te ayudamos a crear desde el logo de tu negocio, como proveerte de un manual de identidad para publicidad a gran escala.
+                                    <p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-smartphone"></span></div>
+                            <div>
+                                <h3>Movil Apps</h3>
+                                <p>Creamos soluciones digitales, multiplataforma listos para el mercado de ios/android, las herramientas que necesitas del tamaño de tu bolsillo.</p>
+                                <p><a href="#">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="unit-4">
+                            <div class="unit-4-icon mr-4"><span class="text-primary flaticon-head"></span></div>
+                            <div>
+                                <h3>E-commerce</h3>
+                                <p>Propulsamos a pequeñas y medianas empresas a seguir operando de forma segura, pese a la pandemia del Covid-19, de una manera fácil y accesible. </p>
+                                <p><a href="#">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="site-section bg-light" id="pricing-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center" data-aos="fade-up">
+                        <h2 class="section-title mb-3">Precios</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="">
+                        <div class="pricing">
+                            <h3 class="text-center text-black">Página Web</h3>
+                            <h6 class=" text-center">Plan Básico: <span class="off">$6000.00</span></h6>
+
+                            <div class="price text-center mb-4  ">
+
+
+                                <span><span>$3500.00</span> / anual</span>
+                            </div>
+
+
+
+                            <ul class="list-unstyled ul-check success mb-5">
+
+                                <li>Dominio.com</li>
+                                <li>Hosting</li>
+                                <li>Certificado (ssl) de seguridad</li>
+                                <li>Diseño responsive</li>
+                                <li>Formulario de contacto</li>
+                                <li>hasta 5 pestañas</li>
+
+                                <li class="remove">Chat-bot</li>
+                                <li class="remove">Marketing Digital</li>
+                                <li class="remove">Correo profesional</li>
+                                <li class="remove">Branding y diseño de marca</li>
+                                <li class="remove">Politicas de privacidad y cookies</li>
+                                <li class="remove">Blog autogestionable</li>
+                                <li class="remove">Politicas de privacidad y cookies</li>
+                                <li class="remove">Soporte Técnico</li>
+
+
+
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pricing">
+                            <h3 class="text-center text-black">Tienda en linea</h3>
+                            <h6 class=" text-center">Plan Básico: <span class="off">$12000.00</span></h6>
+
+                            <div class="price text-center mb-4 ">
+                                <span><span>$8500.00</span> / anual</span>
+                            </div>
+                            <ul class="list-unstyled ul-check success mb-5">
+
+                                <li>Dominio.com</li>
+                                <li>Hosting</li>
+                                <li>Certificado (ssl) de seguridad</li>
+                                <li>Landing page</li>
+                                <li>Sistema de inventarios y gestión de productos</li>
+                                <li>Paypal y transferencias bancarias</li>
+                                <li>Diseño responsive</li>
+                                <li>Formulario de contacto</li>
+                                <li class="remove">Oxxo pagos y meses sin intereses</li>
+                                <li class="remove">Chat-bot</li>
+                                <li class="remove">Blog</li>
+                                <li class="remove">Marketing Digital y anuncios en redes sociales</li>
+                                <li class="remove">Conexión de ventas en facebook</li>
+                                <li class="remove">politica de privacidad</li>
+                                <li class="remove">Cuentas de usuarios</li>
+                                <li class="remove">e-mail marketing</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="pricing">
+                            <h3 class="text-center text-black">Marketing Digital</h3>
+                            <div class="price text-center mb-4 ">
+                                <h6 class=" text-center">Plan Básico: <span class="off">$6000.00</span></h6>
+                                <span><span>$4000.00</span> / mensuales</span>
+                            </div>
+                            <ul class="list-unstyled ul-check success mb-5">
+
+                                <li>Estrategía de comunicación</li>
+                                <li>Creación de contenido digital</li>
+                                <li>hasta 6 publicaiones semanales</li>
+                                <li>Reportes mensuales de metricas</li>
+                                <li>Publicidad monetizada (ads) Facebook & Instagram </li>
+                                <li>Automatización de preguntas</li>
+                                <li class="remove">chat-boot con inteligencia artifial</li>
+                                <li class="remove">interacción de preguntas frecuentes</li>
+                                <li class="remove">Interacción con seguidores</li>
+                                <li class="remove">Seguimiento a seguidores</li>
+                                <li class="remove">Branding</li>
+                                <li class="remove">Activaciones y promociones</li>
+                                <li class="remove">Post ilimitados</li>
+                                <li class="remove">Anuncios de video</li>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="site-section bg-light" id="contact-section" data-aos="fade">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title mb-3">Contáctanos</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+
+
+
+                    <div class="col-md-4 text-center">
+                        <p class="mb-4">
+                            <span class="icon-room d-block h4 text-primary"></span>
+                            <a href="https://www.google.com/maps"></a><span>Calle 9, Espartaco, Mexico City, CDMX</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p class="mb-4">
+                            <span class="icon-phone d-block h4 text-primary"></span>
+                            </a>5564692273</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p class="mb-0">
+                            <span class="icon-mail_outline d-block h4 text-primary"></span>
+                            <a>flipapps.contacto@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="footer-heading mb-4">¿Quiénes somos?</h2>
+                                <p>Una empresa mexicana, de jovenes visionarios, dispuestos a apoyar a pequeñas y medianas empresas a alcanzar sus metas...</p>
+                            </div>
+                            <div class="col-md-3 ml-auto">
+                                <h2 class="footer-heading mb-4">Quick Links</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#about-section" class="smoothscroll">¿Quiénes somos?</a></li>
+                                    <li><a href="#services-section" class="smoothscroll">Servicios</a></li>
+
+                                    <li><a href="#contact-section" class="smoothscroll">Contáctanos</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 class="footer-heading mb-4">Follow Us</h2>
+                                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+
+                    </div>
+                </div>
+                <div class="row pt-5 mt-5 text-center">
+                    <div class="col-md-12">
+                        <div class="border-top pt-5">
+                            <p>
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | made with <i class="icon-heart text-danger" aria-hidden="true"></i>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- .site-wrap -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
